@@ -1105,7 +1105,8 @@ paths:
                 items:
                   $ref: '#/components/schemas/NotificationSubscription'
         '204':
-l          description: >- Successful case. The SubscriptionNotification has been successfully deleted.
+          description: >-
+            Successful case. The SubscriptionNotification has been successfully deleted.
         '400':
           $ref: 'TS29571_CommonData.yaml#/components/responses/400'
         '401':
@@ -1116,7 +1117,8 @@ l          description: >- Successful case. The SubscriptionNotification has bee
           $ref: 'TS29571_CommonData.yaml#/components/responses/404'
         '408':
           $ref: 'TS29571_CommonData.yaml#/components/responses/408'
-        '412':          description: Return previous NotificationSubscription value if get-previous=true
+        '412':     
+          description: Return previous NotificationSubscription value if get-previous=true
           content:
             application/json:
               schema:
