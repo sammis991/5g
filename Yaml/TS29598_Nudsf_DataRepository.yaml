@@ -1105,8 +1105,7 @@ paths:
                 items:
                   $ref: '#/components/schemas/NotificationSubscription'
         '204':
-          description: >-
-            Successful case. The SubscriptionNotification has been successfully deleted.
+l          description: >- Successful case. The SubscriptionNotification has been successfully deleted.
         '400':
           $ref: 'TS29571_CommonData.yaml#/components/responses/400'
         '401':
